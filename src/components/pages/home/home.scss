@@ -1,0 +1,17 @@
+.home-page{
+    width: 100%;
+    overflow: hidden;
+    .container{
+        .title{
+            text-align: center;
+            font-size: 32px;
+            margin: 0 0 32px;
+        }
+        @media screen and (min-width: 1024px) {
+            .title{
+                font-size: 48px;
+            }
+        }
+
+    }
+}

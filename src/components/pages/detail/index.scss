@@ -1,0 +1,22 @@
+.detail-page{
+    width: 100%;
+    overflow: hidden;
+    .step-content{
+        display: flex;
+        margin: 0 0 32px;
+        align-items: center;
+        cursor: pointer;
+        .chevron-arrow{
+            display: inline-block;
+            border-right: 4px solid #ffffff;
+            border-bottom: 4px solid #ffffff;
+            width: 10px; height: 10px;
+            transform: rotate(135deg);
+            margin-right: 8px;
+        }
+        &__text{
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
